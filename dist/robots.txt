@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://continental-mkt-lucas.choice-nova-9999.chatgpt.site/sitemap.xml

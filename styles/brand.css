@@ -1,0 +1,40 @@
+/* Continental: cream, red and charcoal from the original logo. */
+:root{color-scheme:light;--bg:#fcf3e2;--red:#e50916;--muted:#5c6062;--ink:#1e2529;--line:#1e25291c}
+body{color:var(--ink);background:var(--bg)}
+.ambient{background:radial-gradient(ellipse 55% 35% at 50% 0%,#fffdf7,transparent 85%),radial-gradient(ellipse 35% 30% at 100% 65%,#e5091609,transparent 80%)}
+.gridlines:before,.gridlines:after{background:#1e252909}
+header{border-bottom:1px solid var(--line)}
+.brand{color:var(--ink)}.brand-icon{background:#fcf3e2;border-radius:12px}.brand-copy small{color:#626465}
+nav{color:#55595b}nav a:hover,.footer a:hover{color:var(--red)}
+.hero h1{font-weight:750;letter-spacing:-.065em}.shine{background-image:linear-gradient(105deg,#e50916,#a50b15 45%,#ed3b36 75%,#e50916)}
+.eyebrow{color:#626465}.eyebrow:before{background:var(--red);box-shadow:none}
+.lead,.muted,.hero-note,.fine,.about-role{color:var(--muted)}
+.glass{background:linear-gradient(135deg,#fffdf7e8,#fffaf0b3);border-color:var(--line);box-shadow:0 8px 28px #442c1606,inset 0 1px #fff;border-radius:20px}
+.service{min-height:260px}.service h3{margin-top:42px}.service p,.step p,.price p,.brand-showcase p,.result-card>p,.result-card .result-note,.result-metrics span,.case-budget,.case-reading p,.offer-list,.price-period,.value small,.faq-list details p,.detail-main p,.detail-main li,.detail-aside p,.detail-aside .amount small{color:var(--muted)}
+.number,.case-label,.text-link,.metric em{color:#ba0916}.text-link:hover{color:#820510}.case-budget strong,.detail-aside .amount,.contact-info strong,.overview .dashboard-title{color:var(--ink)}
+.step,.result-metrics,.case-budget,.offer-list li{border-color:var(--line)}.offer-list li:before{background:var(--red)}
+.result-card:hover,.price:hover,.brand-showcase:hover{border-color:#e509164d;box-shadow:0 15px 35px #442c1610,inset 0 1px #fff}
+.price.featured{background:linear-gradient(145deg,#fffdf8,#ffe9db);border:1px solid #e5091655;box-shadow:0 12px 32px #e509160b}.price.featured h3{color:#ba0916}
+.pill,.liquid-metal.metal-primary,.liquid-metal.metal-primary:hover{color:#fff;background:linear-gradient(135deg,#f01825,#cc0713);border-color:#c60713;box-shadow:inset 0 1px #ffffff55,0 7px 18px #e5091622}
+.liquid-metal.metal-primary:hover{background:linear-gradient(135deg,#e50916,#aa0611);box-shadow:inset 0 1px #ffffff66,0 10px 24px #e509162e}
+.pill.dark,.liquid-metal:not(.metal-primary),.liquid-metal:not(.metal-primary):hover{color:var(--ink);background:linear-gradient(135deg,#ffffffdd,#fff9ed99);border-color:#1e25292b;box-shadow:inset 0 1px #fff,0 5px 14px #442c1608}
+.liquid-metal:not(.metal-primary):hover{border-color:#e5091670;box-shadow:inset 0 1px #fff,0 9px 20px #442c1610}
+.extra-services span,.audience-tags span,.related-services a{color:#45494b;background:linear-gradient(135deg,#ffffffd9,#fffaf0aa);border-color:#1e252923;box-shadow:inset 0 1px #fff,0 4px 12px #442c1606}
+.extra-services span:hover,.related-services a:hover{border-color:#e5091666;box-shadow:0 8px 18px #442c160c}
+.showcase{border-color:#1e252921;background:linear-gradient(135deg,#fffdf7,#f4e7d1);box-shadow:0 24px 70px #442c1614,inset 0 1px #fff;padding:12px}
+.window{background:#fffdf9;border-color:#1e25291c}.windowbar{color:#696c6c;background:#faf5eb;border-bottom-color:var(--line)}
+.side{background:#1e2529;color:#bac0c1;border-color:#1e2529}.side strong{color:#fff8ec}.side .active{color:#fff8ec;background:#ffffff14;border-left:2px solid var(--red)}
+.overview small,.metric span{color:#626465}.metric{background:#fcf6eb;border-color:#1e252918}.metric b{color:var(--ink)}
+.chart{border-color:#1e252919;background:linear-gradient(180deg,#e5091608,transparent),repeating-linear-gradient(0deg,transparent 0 31px,#1e252909 32px)}
+.brand-showcase{background:linear-gradient(120deg,#fffaf0,#fcf3e2)}.brand-showcase img{border:1px solid #1e25290c}
+.portrait-frame{border-color:#1e252925;box-shadow:0 24px 60px #442c1618}.portrait-caption{background:#1e2529d9}
+.cta{background:radial-gradient(ellipse at 50% 0,#e509160d,transparent 65%),#fffaf0;border-color:#e5091625}.cta p{color:var(--muted)}
+.contact-info{background:#fcf3e2;border-color:var(--line);color:var(--muted)}.contact-info a{color:var(--ink)}.contact-info a:hover{color:var(--red)}.contact-info p{color:var(--muted)}
+.contact-panel label,.contact-panel output{color:#45494b}.contact-panel input,.contact-panel select,.contact-panel textarea{color:var(--ink);background:#fffdf8;border-color:#1e252933}.contact-panel input::placeholder,.contact-panel textarea::placeholder{color:#727575;opacity:1}
+.channel,.channel:hover{color:var(--ink)}.channel-icon{border-color:#e5091633;background:linear-gradient(145deg,#fffdf9,#f3e3cc);box-shadow:inset 0 0 0 4px #fffaf0,inset 0 0 0 6px #e5091629,0 10px 22px #442c1612}.channel-icon:before{background:radial-gradient(circle at 35% 28%,#fff,#fff2df);box-shadow:inset 0 2px 5px #fff,0 2px 8px #442c1608}.channel-icon svg{stroke:#d20a17;filter:none}.channel-icon svg [fill]:not([fill="none"]){fill:#d20a17}.channel:hover .channel-icon{box-shadow:inset 0 0 0 4px #fffaf0,inset 0 0 0 6px #e5091670,0 14px 26px #e509161c}
+.faq-list details{background:#fffaf0;border-color:var(--line)}.faq-list details[open]{background:#fffdf8;border-color:#e509164d}
+.breadcrumbs{color:var(--muted)}.footer{color:#626465;border-color:var(--line)}
+a:focus-visible,button:focus-visible,summary:focus-visible,.channel:focus-visible,.liquid-metal:focus-visible{outline-color:#ba0916}input:focus-visible,select:focus-visible,textarea:focus-visible{outline-color:#ba0916}
+@media(hover:hover){.step:hover{background:#e5091604}}
+@media(max-width:900px){nav{background:#fffaf0f5;border-color:#1e252926;box-shadow:0 14px 30px #442c1615;backdrop-filter:blur(12px)}#menu{color:var(--ink);background:#fffaf0;border-color:#1e25292b;box-shadow:inset 0 1px #fff}.breadcrumbs{background:none;box-shadow:none;border:0}}
+@media(max-width:480px){.showcase{padding:7px}.service{min-height:225px}}
